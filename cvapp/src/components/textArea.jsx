@@ -1,8 +1,8 @@
 import './textArea.css'
 
-const TextArea = ({ text, send }) => {
+const TextArea = ({ send }) => {
 
-	function inputChange(e) {
+	function changeText(e) {
 		send(e.target.value)
 	}
 	
@@ -10,7 +10,7 @@ const TextArea = ({ text, send }) => {
 
 		<div>
 	
-		<textarea id="textA" className="textA" name="text" onChange={(e) => inputChange(e)} rows={4} cols={50} defaultValue={"   "} />
+		<textarea id="textA" className="textA" name="text" onChange={(e) => changeText(e)} rows={4} cols={50} defaultValue={"   "} />
 		</div>
 
 	)

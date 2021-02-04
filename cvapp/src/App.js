@@ -9,9 +9,11 @@ function App() {
   const [text, setText] = useState("")
   return (
     <div className="App">
-      <Button />
       <TextArea text={text} send={setText}/>
       <MyDiv text={text}/>
+
+      
+      <Button />
       
      
       
