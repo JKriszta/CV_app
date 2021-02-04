@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  height: 100vh;
+  padding: 40px;
+  gap: 40px;
+}
+
+/* .textA,
+.myDiv {
+  height: 100%;
+  flex-basis: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 20px;
+  background-color: red;
+  color: white;
+  appearance: none;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+} */

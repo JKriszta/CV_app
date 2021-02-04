@@ -1,0 +1,14 @@
+button {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 20px;
+  background-color: red;
+  color: white;
+  appearance: none;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
